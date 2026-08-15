@@ -1,5 +1,5 @@
-# engineering-displine
-Skill for displine for LLMs. This serves as a experiment of describing personal tastes to LLMs.
+# engineering-discipline
+Skill for discipline for LLMs. This serves as a experiment of describing personal tastes to LLMs.
 
 LLMs can output defensive code and does not properly keep invariant in the way I want them to, producing unmaintainable code. I believe that is because LLMs don't have a proper taste or understand what means maintainable, but a taste should be describable with natural language, at least, to finally approach what we mean by having a taste.
 
