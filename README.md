@@ -7,10 +7,10 @@ My stance about LLMs roughly is the same as https://newsletter.powderworks.dev/p
 
  
 
-LLM usage discloure:
+LLM usage discloure:  
 
-Areas used:
+Areas used:  
 Prompt text writing.
 
-Areas not used:
+Areas not used:  
 This README.md
