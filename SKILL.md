@@ -1,3 +1,8 @@
+---
+name: engineering-discipline
+description: Apply engineering-discipline principles when designing, implementing, refactoring, or reviewing software, especially when modeling domain state, assigning ownership of semantic facts, and evaluating fallback behavior.
+---
+
 # Engineering Discipline
 
 Apply this discipline when designing, implementing, refactoring, or reviewing software.
