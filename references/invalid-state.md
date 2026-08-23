@@ -37,9 +37,15 @@ States outside the explicitly agreed scope are invalid states.
 
 Do not add speculative states, statuses, lifecycle phases, compatibility modes, recovery paths, or future behavior merely because they are possible.
 
-Unsupported external input must be rejected at the boundary.
+Unsupported external input must be rejected at the boundary when the accepted
+contract defines boundary validation as its recovery behavior. Rejection must
+not construct or return an invalid domain value.
 
-If an unsupported state is reached internally, panic at the detection site. Do not invent semantics to continue.
+If an unexpected external value produces an invalid or unsupported state, or if
+such a state is reached internally, and no explicit error recovery is defined,
+panic or propagate the exception at the detection site. This rule is absolute
+except for explicitly documented exceptions. Do not invent a new error state,
+status, outcome, fallback, compatibility path, or recovery path to continue.
 
 ## Review
 

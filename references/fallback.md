@@ -7,6 +7,11 @@ There shall be absolutely no fallback behavior unless:
 
 Fallback is part of the model, not a general robustness technique.
 
+When no explicit error recovery is defined, panic or propagate the exception
+at the detection site. Do not replace an unspecified failure with a new error
+state, status, outcome, fallback, compatibility path, or recovery path. This
+rule is absolute except for explicitly documented exceptions.
+
 ## Language constructs are not inherently forbidden
 
 `unwrap_or_default`, `unwrap_or`, and similar constructs are acceptable when the modeled behavior says the alternate value is the correct semantic result.
